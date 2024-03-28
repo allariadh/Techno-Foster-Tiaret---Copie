@@ -30,22 +30,22 @@ header{
 }
 .logo{
     text-decoration: none;
-    color: #183770;
+    color: #0C356A;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
-    padding-right: 400px;
+    padding-right: 470px;
 
 }
 .navigation a{
     text-decoration: none;
-    color: #183770;
+    color: #0C356A;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 35px ;
 }
 .navigation a:hover{
-    color: blue;
+    color: white ;
 }
 section{
     background-color: #CAE8FF;
@@ -58,16 +58,16 @@ section{
     align-items: center;
     justify-content: space-between;
     /*background: url(/image/busy-project-manager-overwhelmed-by-work\ \(1\).png) no-repeat;*/
-    background-image: url(./image/b.png);
+    background-image: url(./image/b6.png);
     background-repeat: no-repeat;
-    background-position: 90% 50%;
-    background-color: #0AE3A3;
-    background-size: 500px ;
+    /*background-position: 90% 50%;
+    background-color: #0C356A;*/
+    background-size: 1550px ;
     background-attachment: fixed;
     
 }
 .main h2{
-    color: rgb(0, 0, 0);
+    color: #F2F2F2;
     font-size:  1.4em;
     font-weight: 700 ;
     
@@ -75,13 +75,13 @@ section{
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #183770  ;
+    color: #0C356A  ;
     font-size: 2.6em;
     font-weight: 600;
 }
 .main h3{
 
-    color: rgb(0, 0, 0);
+    color:#f2f2f2;
     font-size: 1.5em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -102,13 +102,13 @@ section{
   font-family: inherit;
   font-weight: 500;
   color: black;
-  background-color: #183770;
+  background-color: #4CCD99;
   
  }
  .bot{
   color: white;
   text-decoration: none;
-  background-color: #183770;
+  background-color: #4CCD99;
  }
  .btn:hover {
   transform: translateY(-3px);
@@ -228,17 +228,20 @@ section{
     flex-wrap:wrap;
 }
 .cards{
-    background-color: #4CCD99;
-    background-image: url(./image/mg1.png);
+    background-color: #0C356A;
+    background-image: url(./image/3d1.mp4);
+    
+    background-size:  cover; ;
     background-position: center;
-
+    
+    
 }
 .card {
     display: flex;
     background-color: #fff ;
     width: 100%;
     /*width: 21.25em;*/
-    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.75);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
@@ -302,13 +305,16 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     transform: scale(0.8) rotate(-10deg);
     border-radius: 20px;
     /*box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);*/
-    box-shadow: 0 32px 75px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 32px 75px rgba(255, 255, 255, 0.7);
 
 }
 .our-business{
-    background-color: #4CCD99;
-    background-image: url(./image/mg1.png);
+    background-color: #0C356A;
+    background-image: url(./image/3d1.mp4);
+    background-size:100px;
+    background-repeat: repeat;
     background-position: center;
+    /*height: 200vh;*/
 }
 
 .more-details{
