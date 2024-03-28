@@ -280,6 +280,7 @@ section{
     font-family: mySecondFont;
     font-size: 1.2em;
     width: 90%;
+    /*text-align: center;*/
 
 }
 header{
@@ -296,6 +297,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap:30px;
+    /*text-align: center0;*/
 }
 .img-gallery img{
     width: 100%;
